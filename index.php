@@ -29,7 +29,7 @@
     if(mail("khodrojy3@gmail.com","comment from my website",
     "Name: " . $_POST["name"]. "
      Comment is : " . $_POST["comment"])){
-      $resul = '<div calss="alert alert-success> Your Email was submitted </div>';
+      $result = '<div calss="alert alert-success> Your Email was submitted </div>';
     }
 
   }
